@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+option java_package = "cars.generated";
+
+option java_multiple_files = true;
+
+message Car {
+  required int32 id = 1;
+  required string brand = 2;
+  required string model = 3;
+  required int32 year = 4;
+  required bool availableToBuy = 5;
+
+}
